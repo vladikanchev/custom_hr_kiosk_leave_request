@@ -1,0 +1,9 @@
+<odoo>
+    <template id="hr_attendance_kiosk_mode_custom" inherit_id="hr_attendance.kiosk_mode" name="Add Leave Button to Kiosk Mode">
+        <xpath expr="//div[@class='o_hr_attendance_kiosk_mode']" position="inside">
+            <button type="button" class="btn btn-warning btn-lg mt-2 o_kiosk_leave_request">
+                Заяви отпуска
+            </button>
+        </xpath>
+    </template>
+</odoo>
