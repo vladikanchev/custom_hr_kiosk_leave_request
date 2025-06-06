@@ -1,0 +1,7 @@
+<odoo>
+    <template id="assets_backend" name="Kiosk Leave Request Assets" inherit_id="web.assets_backend">
+        <xpath expr="." position="inside">
+            <script type="text/javascript" src="/custom_hr_kiosk_leave_request/static/src/js/kiosk_leave_button.js"/>
+        </xpath>
+    </template>
+</odoo>
